@@ -4,12 +4,16 @@
 <head>
     <meta charset="UTF-8">
     <title>POCHOKIKSTARTER</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="css/main_page.css">
     <style type="text/css" media="screen">
         .carousel {
             max-width: 800px;
             margin: 0 auto;
             display: flex;
         }
+        
         #imagen {
             width: 100%;
             height: 400px;
@@ -19,52 +23,43 @@
     <script src="js/comportamiento.js"></script>
 </head>
 
-<body> <!-- background="images/fondo.jpg" -->
+<body>
+    <!-- background="images/fondo.jpg" -->
     <header>
         <h1 id="title">POCHOKIKSTARTER</h1>
-        <img src="images/avatar_usuario.png" alt="Usuario" width="50" height="" title="Perfil de usuario">
+        <img src="images/avatar_usuario.png" alt="Usuario" title="Perfil de usuario">
     </header>
-    <!--<nav id=>
-        <a href="/actividades/">Actividades universitarias</a> |
-        <a href="/aula/">En el aula</a> |
-        <a href="/puntosInteresantes/">Puntos interesantes dentro de la universidad</a> |
-        <a href="/sobeNosotros/">Sobre nosotros</a>
-    </nav>-->
-    
-    <div class="carousel">
-        <button id="retroceder">Retroceder</button>
-        <div id="imagen"></div>
-        <button id="avanzar">Avanzar</button>
-    </div>
-    <div class="controles">
-        <button id="play">Play</button>
-        <button id="stop" disabled>Stop</button>
-    </div>
-    
+    <nav>
+        <a href="#" class="active">1</a>
+        <a href="#">2</a>
+        <a href="#">3</a>
+        <a href="#">4</a>
+        <a href="#">5</a>
+    </nav>
+
+
+
     <main>
-        <section>
-            
-
-
+        <section class="proyect">
             <h2>Mercedes-Benz Vision AVTR </h2>
+            <div class="container">
+                <div class="carousel">
+                    <button id="retroceder">Retroceder</button>
+                    <div id="imagen"></div>
+                    <button id="avanzar">Avanzar</button>
+                </div>
+                <div class="proyect-info">
+                    <h3> Info </h3>
+                </div>
+            </div>
+            <div class="controles">
+                <button id="play">Play</button>
+                <button id="stop" disabled>Stop</button>
+            </div>
 
-
-            <h2>Información general</h2>
-            <img src="images/UEM-emblema.jpg" alt="Logo UE" width="104" height="">
-            <article>
-
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/c5Abj0hinxA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            </article>
-            <h3>Consejos</h3>
-            <article>
-                <p>A la hora de estar en clase es importante que prestes mucha atención ya se explican contenidos que habrá que tener en cuenta a la hora de realizar la práctica correspondiente. Si te quedas con alguna duda es conveniente que se lo comentes
-                    al profesor e incluso acudas a tutorías si es necesario.</p>
-            </article>
         </section>
     </main>
-    <aside>
-        <p>Para cualquier consulta vaya a la seccion de "Contacto" y no dude en preguntarnos</p>
-    </aside>
+
     <footer>
         <h4>Contacto</h4>
         <p>cooreo@gmail.com</p>
