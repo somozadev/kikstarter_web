@@ -1,0 +1,158 @@
+header {
+	width:100%; /* Establecemos que el header abarque el 100% del documento */
+	overflow:hidden; /* Eliminamos errores de float */
+	background:#424874;
+	margin-bottom:20px;
+}
+
+.wrapper {
+	width:90%; /* Establecemos que el ancho sera del 90% */
+	max-width:1000px; /* Aqui le decimos que el ancho máximo sera de 1000px */
+	margin:auto; /* Centramos los elementos */
+	overflow:hidden; /* Eliminamos errores de float */
+}
+
+header .logo {
+	color:#f2f2f2;
+	font-size:50px;
+	line-height:200px;
+	float:left;
+}
+
+header nav {
+	float:right;
+	line-height:200px;
+}
+
+header nav a {
+	display:inline-block;
+	color:#fff;
+	text-decoration:none;
+	padding:10px 20px;
+	line-height:normal;
+	font-size:20px;
+	font-weight:bold;
+	-webkit-transition:all 500ms ease;
+	-o-transition:all 500ms ease;
+	transition:all 500ms ease;
+}
+
+header nav a:hover {
+	background:#F4EEFF;
+	border-radius:50px;
+}
+
+h1 {
+    font-style: oblique;
+    text-align:center;
+}
+
+.parrafo {
+	text-align: center;
+}
+
+#contenedor_principal{
+    width:1024px;
+    height:auto;
+    position:relative;
+    margin:auto;
+}
+.contenedor_imagen_texto{
+    width:30%; /* 335px */
+    height:auto;
+    position:relative;
+    display:inline-block;
+    vertical-align:top;
+    overflow:hidden;
+}
+
+.row {
+	display: flex;
+	flex-wrap: wrap;
+	padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+	flex: 33%;
+	max-width: 33%;
+	padding: 0 4px;
+}
+  
+.column img {
+	margin-top: 8px;
+	vertical-align: middle;
+	width: 100%;
+}
+
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+	.column {
+	  flex: 100%;
+	  max-width: 100%;
+	}
+}
+
+.column {
+	position: relative;
+  }
+
+.column .infoImg {
+	display: none;
+	position: absolute;
+	bottom: 5%;
+	left: 5%;
+	right: 5%;
+	background-color: #fff;
+	padding: .5em;
+}
+.column:hover .infoImg {
+	display: block;
+	text-align: center;
+}
+
+/*
+.imagen, .texto{
+    width:100%;
+    height:auto;
+    position:relative;
+    display:inline;
+}
+
+.texto{
+    height:auto;
+    text-align:center;
+}
+*/
+
+h4 {
+    font-style: oblique;
+    text-align:center;
+}
+
+
+/* Footer */
+
+#button-addon1 {
+	color: #ffc371;
+}
+  
+i {
+	color: #ffc371;
+}
+  
+.form-control::placeholder {
+	font-size: 0.95rem;
+	color: #aaa;
+	font-style: italic;
+}
+  
+.form-control.shadow-0:focus {
+	box-shadow: none;
+}
+
+iframe {
+	width:100%;
+    float:left;
+    text-align:center;
+}
