@@ -31,24 +31,24 @@ document.addEventListener("DOMContentLoaded", () => {
     const loginForm = document.querySelector("#login");
     const registerForm = document.querySelector("#register");
 
-    document.querySelector("#linkRegister").addEventListener("click", e => { //cuando se de a registrar, esconder el form de login y mostrar el de registro
-        e.preventDefault();
-        loginForm.classList.add("form--hidden");
-        registerForm.classList.remove("form--hidden");
-    });
+    //document.querySelector("#linkRegister").addEventListener("click", e => { //cuando se de a registrar, esconder el form de login y mostrar el de registro
+    //    e.preventDefault();
+    //    loginForm.classList.add("form--hidden");
+    //    registerForm.classList.remove("form--hidden");
+    //});
+//
+    //document.querySelector("#linkLogin").addEventListener("click", e => {//cuando se de a login, esconder el form de registro y mostrar el de login
+    //    e.preventDefault();
+    //    loginForm.classList.remove("form--hidden");
+    //    registerForm.classList.add("form--hidden");
+    //    SetFormMsg(loginForm, "", "");
+    //});
 
-    document.querySelector("#linkLogin").addEventListener("click", e => {//cuando se de a login, esconder el form de registro y mostrar el de login
-        e.preventDefault();
-        loginForm.classList.remove("form--hidden");
-        registerForm.classList.add("form--hidden");
-        SetFormMsg(loginForm, "", "");
-    });
-
-    loginForm.addEventListener("submit", e => {
-        e.preventDefault();
-        //ajax login?
-        SetFormMsg(loginForm, "error", "usuario/contraseña incorrectos");
-    });
+   // loginForm.addEventListener("submit", e => {
+   //     e.preventDefault();
+   //     //ajax login?
+   //     SetFormMsg(loginForm, "error", "usuario/contraseña incorrectos");
+   // });
 
     document.querySelectorAll(".form__input").forEach(inputElement => {
         inputElement.addEventListener("blur", e => {
