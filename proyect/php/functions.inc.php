@@ -44,7 +44,7 @@ function PasswordMatch($r_password, $r_new_password)
 
     return $result;
 }
-function PasswordTooShort($r_password)
+function PasswordTooShort($r_password)  
 {
     if (strlen($r_password) < 6)
         $result = true;

@@ -1,16 +1,9 @@
 <!DOCTYPE html>
 <?php include_once('header.php') ?>
 
-<head>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Signika+Negative:wght@400;500;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./css/login.css">
-</head>
-
-<body>
+<div class="login_register_body">
     <div class="container-centerer">
-        <div class="container">
+        <div class="container-form">
             <form method="post" action="php/register.inc.php" class="form" id="register">
                 <h1 class="form__title"> Register </h1>
                 <div class="form__message form__message--error"></div>
@@ -34,19 +27,19 @@
                 <?php
                 if (isset($_GET["error"])) {
                     if ($_GET["error"] == "emptyInput")
-                        echo "<p> Rellena todos los formularios</p>";
+                        echo "<p class = 'form__input-error-message'> Rellena todos los formularios</p>";
                     else if ($_GET["error"] == "invalidUsername")
-                        echo "<p> Nombre de usuario inválido </p>";
+                        echo "<p class = 'form__input-error-message'> Nombre de usuario inválido </p>";
                     else if ($_GET["error"] == "invalidEmail")
-                        echo "<p> Dirección de correo invalido </p>";
+                        echo "<p class = 'form__input-error-message'> Dirección de correo invalido </p>";
                     else if ($_GET["error"] == "passwordTooShort")
-                        echo "<p> La contraseña debe tener al menos 6 carácteres </p>";
+                        echo "<p class = 'form__input-error-message'> La contraseña debe tener al menos 6 carácteres </p>";
                     else if ($_GET["error"] == "passwordsDontMatch")
-                        echo "<p> Las contraseñas deben ser iguales</p>";
+                        echo "<p class = 'form__input-error-message'> Las contraseñas deben ser iguales</p>";
                     else if ($_GET["error"] == "stmtFailure")
-                        echo "<p> ¡Algo ha ido mal! prueba de nuevo</p>";
+                        echo "<p class = 'form__input-error-message'> ¡Algo ha ido mal! prueba de nuevo</p>";
                     else if ($_GET["error"] == "usernameTaken")
-                        echo "<p> Este usuario ya está registrado </p>";
+                        echo "<p class = 'form__input-error-message'> Este usuario ya está registrado </p>";
                     else if ($_GET["error"] == "none")
                         echo "<p> Registrado!</p>";
                 }
@@ -60,13 +53,6 @@
             </form>
         </div>
     </div>
+</div>
 
-
-    <!-- <script src="./js/login.js"></script> -->
-</body>
-
-<!-- 
-<?php
-if (!isset($username))
-    $username = "";
-$password = ""; ?> -->
+<?php include_once('footer.php') ?>

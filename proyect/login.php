@@ -1,17 +1,9 @@
-<!DOCTYPE html>
 <?php include_once('header.php') ?>
 
-<head>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Signika+Negative:wght@400;500;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./css/login.css">
-</head>
-
-<body>
+<div class="login_register_body">
     <div class="container-centerer">
-        <div class="container">
-            <form method="post" action="php/login.inc.php"  class="form" id="login">
+        <div class="container-form">
+            <form method="post" action="php/login.inc.php" class="form" id="login">
                 <h1 class="form__title"> Login </h1>
                 <!-- <div class="form__message form__message--error"></div> -->
                 <div class="form__input-group">
@@ -27,9 +19,11 @@
                 <?php
                 if (isset($_GET["error"])) {
                     if ($_GET["error"] == "emptyInput")
-                        echo "<p> Rellena todos los formularios</p>";
+                        echo "<p class = 'form__input-error-message'> Rellena todos los formularios</p>";
+                    if ($_GET["error"] == "incorrectPassword")
+                        echo "<p class = 'form__input-error-message'> Contraseña incorrecta </p>";
                     else if ($_GET["error"] == "wrongLogin")
-                        echo "<p> Información de inicio de sesión errónea </p>";
+                        echo "<p class = 'form__input-error-message'> Información de inicio de sesión errónea </p>";
                     else if ($_GET["error"] == "none")
                         echo "<p> Loggeado!</p>";
                 }
@@ -46,11 +40,6 @@
             </form>
         </div>
     </div>
-    <script src="./js/login.js"></script>
-</body>
+</div>
 
-<!-- 
-<?php
-if (!isset($username))
-    $username = "";
-$password = ""; ?> -->
+<?php include_once('footer.php') ?>
