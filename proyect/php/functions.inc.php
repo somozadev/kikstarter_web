@@ -99,7 +99,7 @@ function LoginUser($conn, $l_username, $l_password)
     $hashedPasword = $username_exists["usersPwd"];
     $checkPassword = password_verify($l_password,$hashedPasword);
     if($checkPassword == false){
-        header("location: ../login.php?error=incorrectPassword");
+        header("location: ../login.php?error=wrongLogin");
         exit();
     }
     else if($checkPassword == true){

@@ -20,12 +20,10 @@
                 if (isset($_GET["error"])) {
                     if ($_GET["error"] == "emptyInput")
                         echo "<p class = 'form__input-error-message'> Rellena todos los formularios</p>";
-                    if ($_GET["error"] == "incorrectPassword")
-                        echo "<p class = 'form__input-error-message'> Contraseña incorrecta </p>";
                     else if ($_GET["error"] == "wrongLogin")
                         echo "<p class = 'form__input-error-message'> Información de inicio de sesión errónea </p>";
                     else if ($_GET["error"] == "none")
-                        echo "<p> Loggeado!</p>";
+                        echo "<p class = 'form__message--success'> Loggeado!</p>";
                 }
                 ?>
 

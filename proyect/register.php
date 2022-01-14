@@ -41,7 +41,7 @@
                     else if ($_GET["error"] == "usernameTaken")
                         echo "<p class = 'form__input-error-message'> Este usuario ya está registrado </p>";
                     else if ($_GET["error"] == "none")
-                        echo "<p> Registrado!</p>";
+                        echo "<p class = 'form__message--success'> Registrado!</p>";
                 }
                 ?>
 
