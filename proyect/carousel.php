@@ -1,16 +1,16 @@
 <?php include_once('header.php') ?>
 
 <div class="owl-carousel owl-theme">
-  <div class="owl-slide d-flex align-items-center cover" style="background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/162656/owlcarousel1.jpg);">
+  <div class="owl-slide d-flex align-items-center cover" style="background-image: url(images/RollsRoycePrincipal.jpg);">
     <div class="container">
       <div class="row justify-content-center justify-content-md-start">
         <div class="col-10 col-md-6 static">
           <div class="owl-slide-text">
-            <h2 class="owl-slide-animated owl-slide-title">The bedding was hardly able to cover it</h2>
+            <h2 class="owl-slide-animated owl-slide-title">Rolls-Royce Vision 100</h2>
             <div class="owl-slide-animated owl-slide-subtitle mb-3">
-              One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in his bed into a horrible vermin.
+            Está diseñado para ser completamente autónomo, no tiene asientos delanteros ni acceso al volante.
             </div>
-            <a class="btn btn-primary owl-slide-animated owl-slide-cta" href="https://unsplash.com/photos/pgR4yBMjum8" target="_blank" role="button">See Original Image</a>
+            <a class="btn btn-primary owl-slide-cta" href="coche1.php" target="_blank" role="button">Ver más información</a>
           </div>
         </div>
       </div>
@@ -18,16 +18,16 @@
   </div>
   <!--/owl-slide-->
 
-  <div class="owl-slide d-flex align-items-center cover" style="background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/162656/owlcarousel2.jpg);">
+  <div class="owl-slide d-flex align-items-center cover" style="background-image: url(images/BMWPrincipal.jpeg);">
     <div class="container">
       <div class="row justify-content-center justify-content-md-start">
         <div class="col-10 col-md-6 static">
           <div class="owl-slide-text">
-            <h2 class="owl-slide-animated owl-slide-title">Samsa was a travelling salesman.</h2>
+            <h2 class="owl-slide-animated owl-slide-title">Vision Next 100 de BMW</h2>
             <div class="owl-slide-animated owl-slide-subtitle mb-3">
-              It showed a lady fitted out with a fur hat and fur boa who sat upright, raising a heavy fur muff that covered the whole of her lower arm towards the viewer. Gregor then turned to look out the window at the dull weather.
+            Este coche dispone de características fantásticas, como puertas que se abren hacia arriba y ruedas totalmente integradas en el coche.
             </div>
-            <a class="btn btn-primary owl-slide-animated owl-slide-cta" href="https://unsplash.com/photos/Ijx8OxvKrgM" target="_blank" role="button">See Original Image</a>
+            <a class="btn btn-primary owl-slide-cta" href="coche2.php" target="_blank" role="button">Ver más información</a>
           </div>
         </div>
       </div>
@@ -35,16 +35,16 @@
   </div>
   <!--/owl-slide-->
 
-  <div class="owl-slide d-flex align-items-center cover" style="background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/162656/owlcarousel3.jpg);">
+  <div class="owl-slide d-flex align-items-center cover" style="background-image: url(images/miniPrincipal.jpg);">
     <div class="container">
       <div class="row justify-content-center justify-content-md-start">
         <div class="col-10 col-md-6 static">
           <div class="owl-slide-text">
-            <h2 class="owl-slide-animated owl-slide-title">A collection of textile samples.</h2>
+            <h2 class="owl-slide-animated owl-slide-title">Mini Vision Next 100</h2>
             <div class="owl-slide-animated owl-slide-subtitle mb-3">
-              He lay on his armour-like back, and if he lifted his head a little he could see his brown belly.
+            La tecnología de la conducción automática va a cambiar el interior de los coches. Cuando el vehículo está en modo autónomo, el volante se desplaza hacia el centro del salpicadero.
             </div>
-            <a class="btn btn-primary owl-slide-animated owl-slide-cta" href="https://unsplash.com/photos/7uwbhGSH5Fg" target="_blank" role="button">See Original Image</a>
+            <a class="btn btn-primary owl-slide-cta" href="coche3.php" target="_blank" role="button">Ver más información</a>
           </div>
         </div>
       </div>
