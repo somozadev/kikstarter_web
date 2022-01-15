@@ -2,9 +2,11 @@ h1 {
 	font-style: oblique;
 	text-align: center;
 }
+
 .parrafo {
-	text-align: center;  
+	text-align: center;
 }
+
 
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
 /* 
