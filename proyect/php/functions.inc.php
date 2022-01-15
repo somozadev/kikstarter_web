@@ -111,3 +111,16 @@ function LoginUser($conn, $l_username, $l_password)
     }
 
 }
+
+
+
+// 
+
+function EmptyDonation($donation){
+    if(empty($donation))
+        $result = true; 
+    else
+        $result = false;
+
+    return $result;
+}
