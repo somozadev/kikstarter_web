@@ -124,3 +124,6 @@ function EmptyDonation($donation){
 
     return $result;
 }
+function UserAndProyectExists(){
+    
+}

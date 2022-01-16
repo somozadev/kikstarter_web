@@ -1,6 +1,6 @@
 <?php
 
-if (isset($_POST["submit"])) {
+if (isset($_POST["donate"])) {
 
     $donated_amount = $_POST["donate_amount_value"];
 
@@ -8,7 +8,7 @@ if (isset($_POST["submit"])) {
     require_once('functions.inc.php');
 
     if (EmptyDonation($donated_amount) !== false) {
-        header("location: ../coches1.php?error=emptyDonation");
+        header("location: ../coche1.php?error=emptyDonation");
         exit();
     }
 
@@ -18,6 +18,6 @@ if (isset($_POST["submit"])) {
     // }
     // SendDonation($conn,$username,$proyect);
 } else {
-    header("location: ../coches1.php");
+    header("location: ../coche1.php");
     exit();
 }

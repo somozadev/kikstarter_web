@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <?php include_once('header.php') ?>
 
 <div class="login_register_body">
