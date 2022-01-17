@@ -1,4 +1,4 @@
-<?php
+<?php session_start();
 
 if (isset($_POST["donate"])) {
 
@@ -8,16 +8,11 @@ if (isset($_POST["donate"])) {
     require_once('functions.inc.php');
 
     if (EmptyDonation($donated_amount) !== false) {
-        header("location: ../coche1.php?error=emptyDonation");
+        header("location: ../cars.php?donation=EmptyDonation");
         exit();
     }
-
-    // if (EmptyInputLogin($l_username, $l_password) !== false) {
-    // header("location: ../login.php?error=emptyInput");
-    // exit();
-    // }
-    // SendDonation($conn,$username,$proyect);
+    MakeDonation($conn, $donated_amount, $_SESSION['donated_proyect_to'], GetUserId($conn, $_SESSION['username']));
 } else {
-    header("location: ../coche1.php");
+    header("location: ../".$_SESSION['current_proyect_group']);
     exit();
 }

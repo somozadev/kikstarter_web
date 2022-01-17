@@ -1,5 +1,5 @@
 <?php include_once('header.php') ?>
-
+<?php unset($_SESSION['donated_proyect_to']) ?>
 <?php if (isset($_POST["cars"])) {
   include_once('cars.php');
 } else if (isset($_POST["motorbikes"])) {
