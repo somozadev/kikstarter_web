@@ -61,10 +61,10 @@
 </section>
 <section class="scroll-container">
   <div class="scroll-element js-scroll slide-right">
-
+    <img src="images/bmwDesc.png"> 
   </div>
   <div class="scroll-caption">
-    This animation slides in from the right.
+    BMW es un fabricante alemán de automóviles y motocicletas de alta gama y lujo, cuya sede se encuentra en Múnich. Sus subsidiarias son Mini, Rolls-Royce, y BMW Bank. BMW es el líder mundial en ventas entre los fabricantes de gama alta, compite principalmente con Audi, Volvo, Lexus y Mercedes-Benz, entre otros vehículos de gama alta.
   </div>
 </section>
 

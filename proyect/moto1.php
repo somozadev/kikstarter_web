@@ -63,9 +63,10 @@
 </section>
 <section class="scroll-container">
   <div class="scroll-element js-scroll slide-right">
-    </div>
-    <div class="scroll-caption">
-    This animation slides in from the right.
+    <img src="images/newronDesc.jpg">
+  </div>
+  <div class="scroll-caption">
+    Newron Motors es una star-up francesa que inició sus pasos en 2016. Por aquel entonces realizó su primera moto eléctrica, partiendo de una Aprilia futura de 125 c.c., cambiando su motor de gasolina por uno eléctrico.
   </div>
 </section>
 

@@ -12,11 +12,17 @@
       <div class="col-lg-4 col-md-6 mb-4 mb-lg-0"><img src="img/logo.png" alt="" width="180" class="mb-3">
         <p class="font-italic text-muted">El pasado no puede ser cambiado. El futuro está aún en tu poder.</p>
         <ul class="list-inline mt-4">
-          <li class="list-inline-item"><a href="#" target="_blank" title="twitter"><i class="fa fa-twitter"></i></a></li>
-          <li class="list-inline-item"><a href="#" target="_blank" title="facebook"><i class="fa fa-facebook"></i></a></li>
-          <li class="list-inline-item"><a href="#" target="_blank" title="instagram"><i class="fa fa-instagram"></i></a></li>
-          <li class="list-inline-item"><a href="#" target="_blank" title="pinterest"><i class="fa fa-pinterest"></i></a></li>
-          <li class="list-inline-item"><a href="#" target="_blank" title="vimeo"><i class="fa fa-vimeo"></i></a></li>
+          <li class="list-inline-item"><a href="https://twitter.com/i/flow/login" target="_blank" title="twitter">Twitter<i class="fa fa-twitter"></i></a></li>
+          <li class="list-inline-item"><a href="https://es-es.facebook.com/" target="_blank" title="facebook">Facebook<i class="fa fa-facebook"></i></a></li>
+          <li class="list-inline-item"><a href="https://www.instagram.com/" target="_blank" title="instagram">Instagram<i class="fa fa-instagram"></i></a></li>
+          <!--<div class="container">  
+            <div class="social">
+              <a href="#"><img src="images/logoTwitter.png" alt="twitter"></a>
+              <a href="#"><img src="img/youtube.png" alt="youtube"></a>
+              <a href="#"><img src="img/linkedin.png" alt="linkedin"></a>
+              <a href="#"><img src="img/instagram.png" alt="instagram"></a>
+            </div>
+          </div>-->
         </ul>
       </div>
       <div class="col-lg-2 col-md-6 mb-4 mb-lg-0">
