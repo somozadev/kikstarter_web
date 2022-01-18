@@ -63,9 +63,10 @@
 </section>
 <section class="scroll-container">
   <div class="scroll-element js-scroll slide-right">
-    </div>
-    <div class="scroll-caption">
-    This animation slides in from the right.
+    <img src="images/upsDesc.jpg">
+  </div>
+  <div class="scroll-caption">
+    UPS acaba de convertirse en la primera empresa estadounidense a la que la FAA (la Agencia Federal de Aviación) autoriza para operar una flota comercial de drones, lo que le permitirá usarlos para entregar mercancías por todo el país integrándose de manera segura en el espacio aéreo.
   </div>
 </section>
 

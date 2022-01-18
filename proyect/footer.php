@@ -37,8 +37,8 @@
       <div class="col-lg-2 col-md-6 mb-4 mb-lg-0">
         <h6 class="text-uppercase font-weight-bold mb-4">Somcas Crowdfunding</h6>
         <ul class="list-unstyled mb-0">
-          <li class="mb-2"><a href="#" class="text-muted">Login</a></li>
-          <li class="mb-2"><a href="#" class="text-muted">Register</a></li>
+          <li class="mb-2"><a href="login.php" class="text-muted">Login</a></li>
+          <li class="mb-2"><a href="register.php" class="text-muted">Register</a></li>
           <li class="mb-2"><a href="#" class="text-muted">Dona aquí</a></li>
         </ul>
       </div>

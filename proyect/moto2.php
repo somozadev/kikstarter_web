@@ -63,9 +63,10 @@
 </section>
 <section class="scroll-container">
   <div class="scroll-element js-scroll slide-right">
-    </div>
-    <div class="scroll-caption">
-    This animation slides in from the right.
+    <img src="images/bstDesc.jpg">
+  </div>
+  <div class="scroll-caption">
+    La BST Hypertek es una moto eléctrica cuyo espectacular diseño es obra de Pierre Terblanche, ex diseñador de Ducati y en cuyo currículum se cuentan modelos como las Ducati 749 y 999, la Multistrada, la Sport 1000 o la Hypermotard. Cuando Pierre Terblanche, junto con la firma de llantas BST, se puso manos a la obra en esta creación, vio esta oportunidad como un lienzo en blanco. Una oportunidad de indagar en el futuro para explotar y explorar todas las posibilidades que ofrece. La BST HyperTEK es una suma de las partes, una acumulación de miles de pensamientos y horas de reflexión, una unión entre un maestro diseñador y un maestro artesano.
   </div>
 </section>
 
