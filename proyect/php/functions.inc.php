@@ -1,4 +1,6 @@
 <?php
+
+#region LOGIN/REGISTER
 function EmptyInputRegister($r_username, $r_email, $r_password, $r_new_password)
 {
     if (empty($r_username) || empty($r_email) || empty($r_password) || empty($r_new_password))
@@ -113,8 +115,9 @@ function LoginUser($conn, $l_username, $l_password)
     }
 }
 
-// 
+#endregion
 
+#region DONATIONS
 function EmptyDonation($donation)
 {
     if (empty($donation))
@@ -171,6 +174,31 @@ function MakeDonation($conn, $d_amount, $d_proyect_name, $d_username)
     mysqli_stmt_execute($stmt);
     mysqli_stmt_close($stmt);
     $_SESSION['donation'] = "Success";
-    header("location: ../" . $d_proyect_name .".php");//. ".php?donation=Success");
+    header("location: ../" . $d_proyect_name . ".php"); //. ".php?donation=Success");
     exit();
+}
+#endregion
+
+function GetUserDonations($conn, $username, $get_bool)
+{
+
+    $sql = "SELECT usersUsername,donationsAmount,proyectsName FROM donations d INNER JOIN proyects p INNER JOIN users u WHERE d.proyectsId=p.proyectsId AND d.usersId = u.usersId AND d.usersId= ? ORDER BY d.donationsId;";
+    $stmt = mysqli_stmt_init($conn);
+    if (!mysqli_stmt_prepare($stmt, $sql)) {
+        exit();
+    }
+    $id = GetUserId($conn, $username);
+    mysqli_stmt_bind_param($stmt, "s", $id);
+    mysqli_stmt_execute($stmt);
+    $resultData =   mysqli_stmt_get_result($stmt);
+    $count = 0;
+    while ($row = mysqli_fetch_assoc($resultData)) {
+        if (!$get_bool)
+            echo '<li> <b style="color:#52c23f; ">' . $row["donationsAmount"] . '€ </b> para ' . str_replace("_", " ", $row["proyectsName"]) . '</li>';
+        else
+            return true;
+    }
+
+    mysqli_free_result($resultData);
+    mysqli_stmt_close($stmt);
 }

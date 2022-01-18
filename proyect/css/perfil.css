@@ -1,0 +1,77 @@
+.profile-container {
+    margin-top: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+@media screen and (max-width: 900px) {
+
+    .profile-inner-container {
+        flex-wrap: wrap;
+    }
+}
+.profile-inner-container {
+    width: 50%;
+    min-width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1500px;
+    border: 5px solid darkslateblue;
+    border-radius: 2em;
+    padding: 10px 10px 10px 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #d2d7ff;
+
+}
+
+.profile-transactions {
+
+    background-color: #b8bef1;
+    padding: 10px 10px 10px 10px;
+    border-radius: 12px;
+
+}
+
+.profile-image {
+    align-self: flex-start;
+}
+
+.profile-image-img {
+    display: flex;
+    justify-content: center;
+}
+
+.profile-image-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile-image-info-name {
+    font-size: 2.3em;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+}
+
+.profile-image-info-email {
+    font-size: 1.2em;
+    font-weight: 300;
+    color: rgb(160, 160, 160);
+}
+
+.profile-image-img>img {
+    width: 70%;
+    height: 70%;
+    border: 6px solid #a5b0ff;
+    border-radius: 50%;
+}
+
+.profile-inner-container>hr {
+    width: 5px;
+    height: 400px;
+    display: inline-block;
+}

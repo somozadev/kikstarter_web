@@ -258,6 +258,10 @@
                     <li><a href="contacto.php" class="nav-link px-2 text-white">Contacto</a></li>
                     <li><a href="#" class="nav-link px-2 text-white">FAQs</a></li>
                     <li><a href="#" class="nav-link px-2 text-white">Equipo</a></li>
+                <?php
+                if (isset($_SESSION["username"])) 
+                   echo "<li><a href='mi_perfil.php' class='nav-link px-2' style='color:#a5b0ff;'>Mi perfil</a></li>";
+                    ?>
                 </ul>
                 <?php
                 if (isset($_SESSION["username"])) {
@@ -279,8 +283,5 @@
 
 
             </div>
-        <!-- </div>
-        <?php echo '<pre>';
-            var_dump($_SESSION);
-            echo '</pre>'; ?> -->
+
     </header>

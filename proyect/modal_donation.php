@@ -11,9 +11,6 @@
         <div class="modal-body">
             <p>¡Su donación se ha recibido correctamente!</p>
         </div>
-        <!--<div class="modal-footer">
-            <h3>Modal Footer</h3>
-        </div>-->
     </div>
     <script src="js/modal_donation.js"></script>
 </div>
