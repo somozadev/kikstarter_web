@@ -12,6 +12,7 @@ if (isset($_POST["donate"])) {
         exit();
     }
     MakeDonation($conn, $donated_amount, $_SESSION['donated_proyect_to'], GetUserId($conn, $_SESSION['username']));
+   
 } else {
     header("location: ../".$_SESSION['current_proyect_group']);
     exit();

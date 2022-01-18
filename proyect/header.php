@@ -279,8 +279,8 @@
 
 
             </div>
-        </div>
+        <!-- </div>
         <?php echo '<pre>';
             var_dump($_SESSION);
-            echo '</pre>'; ?>
+            echo '</pre>'; ?> -->
     </header>

@@ -13,6 +13,7 @@
                 </form>";
             if (isset($_SESSION['donation']) == 'Success') {
                 echo "<p> donacion correcta para " . $_SESSION['donated_proyect_to'] . "</p>";
+                include_once('modal_donation.php');
                 unset($_SESSION['donation']);
             }
         } else {
