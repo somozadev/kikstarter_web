@@ -58,7 +58,6 @@
   </div>
   <div class="scroll-caption">
     <?php include_once('donate.php') ?>
-    This animation slides in from the left.
   </div>
 </section>
 <section class="scroll-container">

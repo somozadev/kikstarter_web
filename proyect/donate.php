@@ -7,20 +7,22 @@
                 unset($_SESSION['donated_proyect_to']);
             $_SESSION['donated_proyect_to'] = basename($_SERVER["REQUEST_URI"], ".php");
 
-            echo "<form method='post' action='php/donate.inc.php' class='form' id='donate'>
-                    <input type='number' min='1' class='donate-amount' name='donate_amount_value' required placeholder='5$'>
-                    <button class='donate-button' type='submit' name='donate'>Donate!</button>
-                </form>";
+
+           echo "<link rel='stylesheet' href='css/donation.css'>";
+
+            echo "<div class='donation_form' >
+                <form method='post' action='php/donate.inc.php' class='form' id='donate'>
+                    <div class='donation_item'> <input type='number' min='1' class='donate-amount' name='donate_amount_value' required placeholder='5€'></div>
+                    <div class='donation_item'><button class='donate-button' type='submit' name='donate'>Donate</button></div>
+                </form>
+            </div>";
             if (isset($_SESSION['donation']) == 'Success') {
-                echo "<p> donacion correcta para " . $_SESSION['donated_proyect_to'] . "</p>";
                 include_once('modal_donation.php');
                 unset($_SESSION['donation']);
             }
         } else {
             echo "<h4> Para donar <a href='login.php'>inicie sesión</a> </h4>";
         }
-
-
         ?>
     </form>
 </div>
