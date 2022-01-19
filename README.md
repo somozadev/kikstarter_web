@@ -1,4 +1,4 @@
-#SOMCAS KIKSTARTER
+# SOMCAS KIKSTARTER
 
 Página web centrada en recaudación de donativos para diveras innovaciones tecnológicas en el mundo del automóvil.
 Desarrollada por Eduardo Castellón y Marcos Somoza.
