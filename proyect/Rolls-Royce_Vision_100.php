@@ -54,7 +54,7 @@
 
 <section class="scroll-container">
   <div class="scroll-element js-scroll slide-left">
-
+    
   </div>
   <div class="scroll-caption">
     <?php include_once('donate.php') ?>

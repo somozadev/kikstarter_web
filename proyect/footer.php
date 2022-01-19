@@ -28,10 +28,10 @@
       <div class="col-lg-2 col-md-6 mb-4 mb-lg-0">
         <h6 class="text-uppercase font-weight-bold mb-4">Sobre nosotros</h6>
         <ul class="list-unstyled mb-0">
-          <li class="mb-2"><a href="#" class="text-muted">Apostamos por el futuro</a></li>
-          <li class="mb-2"><a href="#" class="text-muted">Evolución del transporte</a></li>
-          <li class="mb-2"><a href="#" class="text-muted">Próxima generación de vehículos</a></li>
-          <li class="mb-2"><a href="#" class="text-muted">Futuro cada vez más cerca</a></li>
+          <li class="mb-2"><a href="#" class="text-muted" style="text-decoration:none;">Apostamos por el futuro</a></li>
+          <li class="mb-2"><a href="#" class="text-muted" style="text-decoration:none;">Evolución del transporte</a></li>
+          <li class="mb-2"><a href="#" class="text-muted" style="text-decoration:none;">Próxima generación de vehículos</a></li>
+          <li class="mb-2"><a href="#" class="text-muted" style="text-decoration:none;">Futuro cada vez más cerca</a></li>
         </ul>
       </div>
       <div class="col-lg-2 col-md-6 mb-4 mb-lg-0">
@@ -39,7 +39,6 @@
         <ul class="list-unstyled mb-0">
           <li class="mb-2"><a href="login.php" class="text-muted">Login</a></li>
           <li class="mb-2"><a href="register.php" class="text-muted">Register</a></li>
-          <li class="mb-2"><a href="#" class="text-muted">Dona aquí</a></li>
         </ul>
       </div>
       <div class="col-lg-4 col-md-6 mb-lg-0">
@@ -48,6 +47,7 @@
         <div class="p-1 rounded border">
           <div class="input-group">
             <input type="email" placeholder="Enter your email address" aria-describedby="button-addon1" class="form-control border-0 shadow-0">
+            
             <div class="input-group-append">
               <button id="button-addon1" type="submit" class="btn btn-link"><i class="fa fa-paper-plane"></i></button>
             </div>
