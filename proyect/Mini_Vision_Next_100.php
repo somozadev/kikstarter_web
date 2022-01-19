@@ -51,19 +51,18 @@
 </div>
 
 <section class="scroll-container">
-  <div class="scroll-element js-scroll slide-left">
-      
+  <div class="scroll-element js-scroll slide-left" style="border-radius:50px; background-color: #d7e7dd;">
+    <?php include_once('progress_bar.php') ?>
   </div>
   <div class="scroll-caption">
     <?php include_once('donate.php') ?>
-    This animation slides in from the left.
   </div>
 </section>
 <section class="scroll-container">
-  <div class="scroll-element js-scroll slide-right">
-    <img src="images/miniDesc.png"> 
+<div class="scroll-element js-scroll slide-right" style="border-radius:50px; background-color: #f7e1e1; display: flex;align-items: center; justify-content: center;">
+    <img src="images/miniDesc.png" style="margin-left: auto;margin-right: auto; width: 100%; height: auto;">
   </div>
-  <div class="scroll-caption">
+  <div class="scroll-caption"style="text-align: justify; text-justify: inter-word;">
   El MINI es un automóvil del segmento B producido desde 2001 por BMW. Su diseño retro creado por el diseñador estadounidense Frank Stephenson está inspirado en el Mini original, que fue lanzado al mercado en 1959. El nuevo MINI no se vende bajo la marca Mini, sino de manera independiente junto con el Mini Countryman, y se fabrica en Oxford, Inglaterra. El prototipo fue presentado al público en el Salón del Automóvil de París de 1999.<br> La reestilización del MINI fue presentada al público 
   en noviembre de 2006, lo que además de cambios estéticos significó un recambio de todos los motores y mejoras en la seguridad pasiva. Mientras que la línea previa recibió 25 puntos y cuatro estrellas en la prueba de protección a adultos en choques de Euro NCAP, la gama nueva fue otorgada con treinta y tres puntos y cinco estrellas, actualmente el segundo turismo más corto en recibir estas últimas después del llamado Fiat 500.
   </div>

@@ -53,19 +53,18 @@
 
 
 <section class="scroll-container">
-  <div class="scroll-element js-scroll slide-left">
-
+  <div class="scroll-element js-scroll slide-left" style="border-radius:50px; background-color: #d7e7dd;">
+    <?php include_once('progress_bar.php') ?>
   </div>
   <div class="scroll-caption">
     <?php include_once('donate.php') ?>
-    This animation slides in from the left.
   </div>
 </section>
 <section class="scroll-container">
-  <div class="scroll-element js-scroll slide-right">
-    <img src="images/bmwDesc2.jpg">
+<div class="scroll-element js-scroll slide-right" style="border-radius:50px; background-color: #f7e1e1; display: flex;align-items: center; justify-content: center;">
+    <img src="images/bmwDesc2.jpg" style="margin-left: auto;margin-right: auto; width: 35%; height: auto;">
   </div>
-  <div class="scroll-caption">
+  <div class="scroll-caption" style="text-align: justify; text-justify: inter-word;">
     BMW Motorrad AG es la unidad de negocio de motocicletas del fabricante automovilístico alemán BMW AG, formando parte de la división Corporativa y de Desarrollo de marca. Esta división se creó en el año 2007, aunque la fabricación de motocicletas por parte de BMW se remonta al año 1923 con la R32. Ya entonces se adoptó la disposición Motor Boxer bicilíndrico que aún mantiene en nuestros días, junto con otras configuraciones.<br> A la división de motocicletas de BMW perteneció también la marca Husqvarna, adquirida en 2007, y luego vendida a KTM en 2013.
   </div>
 </section>

@@ -8,7 +8,7 @@
             <div class="owl-slide-animated owl-slide-subtitle mb-3">
                 Una de las motos más increíbles vistas, eléctrica y de madera.
             </div>
-            <a class="btn btn-primary owl-slide-cta" href="Newron_Motors_EV-1.php" target="_blank" role="button">Ver más información</a>
+            <a class="btn btn-primary owl-slide-cta" href="Newron_Motors_EV-1.php"  role="button">Ver más información</a>
           </div>
         </div>
       </div>
@@ -25,7 +25,7 @@
             <div class="owl-slide-animated owl-slide-subtitle mb-3">
                 Es el diseño ultratécnico y modular lo que más llama la atención del nuevo modelo de BST, el Hypertek.
             </div>
-            <a class="btn btn-primary owl-slide-cta" href="BST_Hypertek.php" target="_blank" role="button">Ver más información</a>
+            <a class="btn btn-primary owl-slide-cta" href="BST_Hypertek.php"  role="button">Ver más información</a>
           </div>
         </div>
       </div>
@@ -42,7 +42,7 @@
             <div class="owl-slide-animated owl-slide-subtitle mb-3">
                 Presentada como un prototipo de motor eléctrico, sin tapas, ni cilindros, nos deja ver líneas limpias y estéticas.
             </div>
-            <a class="btn btn-primary owl-slide-cta" href="BMW_Motorrad_Vision_Next_100.php" target="_blank" role="button">Ver más información</a>
+            <a class="btn btn-primary owl-slide-cta" href="BMW_Motorrad_Vision_Next_100.php" role="button">Ver más información</a>
           </div>
         </div>
       </div>

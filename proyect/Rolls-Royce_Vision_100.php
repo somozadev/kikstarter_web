@@ -53,20 +53,20 @@
 
 
 <section class="scroll-container">
-  <div class="scroll-element js-scroll slide-left">
-    
+  <div class="scroll-element js-scroll slide-left" style="border-radius:50px; background-color: #d7e7dd;">
+    <?php include_once('progress_bar.php') ?>
   </div>
   <div class="scroll-caption">
     <?php include_once('donate.php') ?>
   </div>
 </section>
 <section class="scroll-container">
-  <div class="scroll-element js-scroll slide-right">
-      <img src="images/RollsRoyceDesc.jpg"> 
+  <div class="scroll-element js-scroll slide-right" style="border-radius:50px; background-color: #f7e1e1; display: flex;align-items: center; justify-content: center;">
+    <img src="images/RollsRoyceDesc.jpg" style="margin-left: auto;margin-right: auto; width: 35%; height: auto;">
   </div>
-  <div class="scroll-caption">
-    Rolls-Royce Motor Cars es una empresa de automóviles de lujo británica, fundada por Henry Royce y Charles Stewart Rolls en 1904, pero que desde 1998 pertenece al Grupo BMW.<br> Asimismo, es propietaria de Rolls-Royce Holdings, de gran importancia económica, es una empresa de ingeniería británica especializada en turbinas, particularmente motores de avión, aunque recientemente ha añadido propulsores marinos y sistemas energéticos a su catálogo, proveyendo un amplio rango de servicios y productos industriales, 
-    civiles y militares.<br> Rolls-Royce tiene sobrenombres como "Rolls", "Roller" o "Doble R", aunque en Derby (localidad donde se ubica su casa matriz) la empresa es conocida como "Royces". Por otra parte, la frase "El Rolls-Royce de X" fue utilizada por otras marcas para describir cierto grado de excelencia en calidad de alguno de sus productos, sin embargo, Rolls-Royce se muestra reacia al uso indiscriminado de este dicho y es muy estricta cuando se trata de defender el derecho de su nombre, en frases como esta. 
+  <div class="scroll-caption" style="text-align: justify; text-justify: inter-word;">
+    Rolls-Royce Motor Cars es una empresa de automóviles de lujo británica, fundada por Henry Royce y Charles Stewart Rolls en 1904, pero que desde 1998 pertenece al Grupo BMW.<br> Asimismo, es propietaria de Rolls-Royce Holdings, de gran importancia económica, es una empresa de ingeniería británica especializada en turbinas, particularmente motores de avión, aunque recientemente ha añadido propulsores marinos y sistemas energéticos a su catálogo, proveyendo un amplio rango de servicios y productos industriales,
+    civiles y militares.<br> Rolls-Royce tiene sobrenombres como "Rolls", "Roller" o "Doble R", aunque en Derby (localidad donde se ubica su casa matriz) la empresa es conocida como "Royces". Por otra parte, la frase "El Rolls-Royce de X" fue utilizada por otras marcas para describir cierto grado de excelencia en calidad de alguno de sus productos, sin embargo, Rolls-Royce se muestra reacia al uso indiscriminado de este dicho y es muy estricta cuando se trata de defender el derecho de su nombre, en frases como esta.
     Un notable ejemplo es la demanda que obligó a cancelar la producción del famoso Chevrolet Monte Carlo, debido a que en su eslogan publicitario nombraba a la marca.
   </div>
 </section>

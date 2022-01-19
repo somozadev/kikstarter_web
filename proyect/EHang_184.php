@@ -53,19 +53,18 @@
 
 
 <section class="scroll-container">
-  <div class="scroll-element js-scroll slide-left">
-
+  <div class="scroll-element js-scroll slide-left" style="border-radius:50px; background-color: #d7e7dd;">
+    <?php include_once('progress_bar.php') ?>
   </div>
   <div class="scroll-caption">
     <?php include_once('donate.php') ?>
-    This animation slides in from the left.
   </div>
 </section>
 <section class="scroll-container">
-  <div class="scroll-element js-scroll slide-right">
-    <img src="images/ehangDesc.jpg">
-  </div>
-  <div class="scroll-caption">
+<div class="scroll-element js-scroll slide-right" style="border-radius:50px; background-color: #f7e1e1; display: flex;align-items: center; justify-content: center;">
+    <img src="images/ehangDesc.jpg" style="margin-left: auto;margin-right: auto; width: 30%; height: auto;">
+  </div> 
+  <div class="scroll-caption" style="text-align: justify; text-justify: inter-word;">
     Ehang UAV son una serie de vehículos aéreos no tripulados desarrollados por la empresa china Beijing Yi-Hang Creation Science & Technology Co., Ltd. que han entrado en servicio en China para la fotografía aérea, fotografía, y misiones de encuesta.<br> En enero de 2016, Ehang anunció nuevos drones capaces de transportar pasajeros, en un primer logro mundial.
   </div>
 </section>

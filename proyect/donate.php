@@ -21,7 +21,11 @@
                 unset($_SESSION['donation']);
             }
         } else {
-            echo "<h4> Para donar <a href='login.php'>inicie sesión</a> </h4>";
+            echo "<h3 style=' display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 100%;'> Para donar <a href='login.php'>inicie sesión</a></h3>";
         }
         ?>
     </form>

@@ -178,7 +178,7 @@ function MakeDonation($conn, $d_amount, $d_proyect_name, $d_username)
     exit();
 }
 #endregion
-
+#region DONATIONS
 function GetUserDonations($conn, $username, $get_bool)
 {
 
@@ -201,4 +201,42 @@ function GetUserDonations($conn, $username, $get_bool)
 
     mysqli_free_result($resultData);
     mysqli_stmt_close($stmt);
+}
+
+#endregion
+#region PROYECTS
+function GetProyectGoal($conn, $proyect_name)
+{
+    $sql = "SELECT proyectsGoal FROM proyects WHERE proyectsName = ? ;";
+    $stmt = mysqli_stmt_init($conn);
+    if (!mysqli_stmt_prepare($stmt, $sql)) {
+        exit();
+    }
+    mysqli_stmt_bind_param($stmt, "s", $proyect_name);
+    mysqli_stmt_execute($stmt);
+    $resultData =   mysqli_stmt_get_result($stmt);
+    if ($row = mysqli_fetch_assoc($resultData)) {
+        return $row['proyectsGoal'];
+    } else
+        return false;
+}
+
+function GetProyectCurrentFunding($conn, $proyect_name)
+{
+    $sql = "SELECT donationsAmount FROM donations WHERE proyectsId = ?;";
+    $stmt = mysqli_stmt_init($conn);
+    if (!mysqli_stmt_prepare($stmt, $sql)) {
+        exit();
+    }
+    
+    $id_proyect = GetProyectId($conn, $proyect_name);
+
+    mysqli_stmt_bind_param($stmt, "i", $id_proyect);
+    mysqli_stmt_execute($stmt);
+    $resultData =   mysqli_stmt_get_result($stmt);
+    $funds=0;
+    while ($row = mysqli_fetch_assoc($resultData)) {
+        $funds+= $row['donationsAmount'];
+    }
+    return $funds;
 }

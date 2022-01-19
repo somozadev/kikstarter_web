@@ -12,7 +12,7 @@
     <div class="profile-inner-container">
         <div class="profile-image" >
             <div class="profile-image-img">
-                <img src="images/profile_image.png">
+                <img src="images/avatar_usuario.png">
             </div>
             <div class="profile-image-info">
                 <span class="profile-image-info-name">' . $_SESSION['username'] . '</span>

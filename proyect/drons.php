@@ -8,7 +8,7 @@
             <div class="owl-slide-animated owl-slide-subtitle mb-3">
                 Drone como nueva forma de entregar paquetes
             </div>
-            <a class="btn btn-primary owl-slide-cta" href="UPS_Flight_Forward.php" target="_blank" role="button">Ver más información</a>
+            <a class="btn btn-primary owl-slide-cta" href="UPS_Flight_Forward.php"  role="button">Ver más información</a>
           </div>
         </div>
       </div>
@@ -25,7 +25,7 @@
             <div class="owl-slide-animated owl-slide-subtitle mb-3">
                 El dron taxi volador autónomo y eléctrico
             </div>
-            <a class="btn btn-primary owl-slide-cta" href="EHang_184.php" target="_blank" role="button">Ver más información</a>
+            <a class="btn btn-primary owl-slide-cta" href="EHang_184.php"   role="button">Ver más información</a>
           </div>
         </div>
       </div>
