@@ -10,27 +10,28 @@
         <br>
     </div>
     <div class="profile-inner-container">
-        <div class="profile-image">
+        <div class="profile-image" >
             <div class="profile-image-img">
                 <img src="images/profile_image.png">
             </div>
             <div class="profile-image-info">
-                <span class="profile-image-info-name">'.$_SESSION['username'].'</span>
-                <span class="profile-image-info-email">'.$_SESSION['email'].'</span>
+                <span class="profile-image-info-name">' . $_SESSION['username'] . '</span>
+                <span class="profile-image-info-email">' . $_SESSION['email'] . '</span>
             </div>
         </div>
         <div>
             <hr>
         </div>
-        <div class="profile-transactions" style="padding-right: 40px;">
-            <ul style="display: flex; flex-flow:column; justify-content:space-between;">
-                <h2 style="text-align: center; font-weight: 400; color: whitesmoke;">Donaciones</h2>';
+        <div class="profile-transactions" style="display: flex; flex-flow:column;">
+        <h2 style="text-align: center; font-weight: 400; color: whitesmoke;">Donaciones</h2>
+        <ul style="display: flex; flex-flow:column; background-color: #cdd2fd; border-radius:10px; list-style:none; 
+        margin-left: 0; padding-left: 2em;padding-right: 1em;padding-bottom: 1em;padding-top: 0.2em; text-indent: -1em; text-aling:center;">';
 
     require_once('php/dbh.inc.php');
     require_once('php/functions.inc.php');
-    GetUserDonations($conn, $_SESSION['username'],false);
-    if (!GetUserDonations($conn, $_SESSION['username'],true))
-        echo "<p style='text-align: center; font-weight: 900;font-size: 2.4rem; color: #cdd2fd; font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;'> ninguna </p>";
+    GetUserDonations($conn, $_SESSION['username'], false);
+    if (!GetUserDonations($conn, $_SESSION['username'], true))
+        echo "<p style='text-align: center;margin:auto;font-weight: 200;font-size: 1.2rem; color: rgb(160, 160, 160);; font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;'>Sin donaciones realizadas</p>";
 
 
     echo " </ul>

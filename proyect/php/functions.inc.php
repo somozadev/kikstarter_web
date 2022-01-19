@@ -194,7 +194,7 @@ function GetUserDonations($conn, $username, $get_bool)
     $count = 0;
     while ($row = mysqli_fetch_assoc($resultData)) {
         if (!$get_bool)
-            echo '<li> <b style="color:#52c23f; ">' . $row["donationsAmount"] . '€ </b> para ' . str_replace("_", " ", $row["proyectsName"]) . '</li>';
+            echo '<li style=" display: inline-block; padding-top:.5em; text-align:center; "> <b style="color:#52c23f;">' . $row["donationsAmount"] . '€ </b> para ' . str_replace("_", " ", $row["proyectsName"]) . '</li>';
         else
             return true;
     }
