@@ -1,6 +1,21 @@
 <?php include_once('header.php') ?>
 
 <div class="owl-carousel owl-theme">
+  <div class="owl-slide d-flex align-items-center cover" style="background-image: url(images/dronUPS3.jpeg);">
+    <div class="container">
+      <div class="row justify-content-center justify-content-md-start">
+        <div class="col-10 col-md-6 static">
+          <div class="owl-slide-text">
+            <h2 class="owl-slide-animated owl-slide-title">UPS Flight Forward - Autonomía</h2>
+            <div class="owl-slide-animated owl-slide-subtitle mb-3">
+              Consigue una autonomía de 120 kilómetros. En cuanto a la velocidad, tiene una velocidad máxima de 240km/h. Los vientos fuertes o malas condiciones meteorológicas no son un problema para el vuelo autónomo del drone. El poder pasar a un ala fija y no depender de las hélices también implica hacer un vuelo más silencioso.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--/owl-slide-->
   <div class="owl-slide d-flex align-items-center cover" style="background-image: url(images/dronUPSPrincipal.jpeg);">
     <div class="container">
       <div class="row justify-content-center justify-content-md-start">
@@ -33,21 +48,7 @@
   </div>
   <!--/owl-slide-->
 
-  <div class="owl-slide d-flex align-items-center cover" style="background-image: url(images/dronUPS3.jpeg);">
-    <div class="container">
-      <div class="row justify-content-center justify-content-md-start">
-        <div class="col-10 col-md-6 static">
-          <div class="owl-slide-text">
-            <h2 class="owl-slide-animated owl-slide-title">UPS Flight Forward - Autonomía</h2>
-            <div class="owl-slide-animated owl-slide-subtitle mb-3">
-              Consigue una autonomía de 120 kilómetros. En cuanto a la velocidad, tiene una velocidad máxima de 240km/h. Los vientos fuertes o malas condiciones meteorológicas no son un problema para el vuelo autónomo del drone. El poder pasar a un ala fija y no depender de las hélices también implica hacer un vuelo más silencioso.
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!--/owl-slide-->
+
 </div>
 
 
@@ -61,7 +62,7 @@
   </div>
 </section>
 <section class="scroll-container">
-<div class="scroll-element js-scroll slide-right" style="border-radius:50px; background-color: #f7e1e1; display: flex;align-items: center; justify-content: center;">
+  <div class="scroll-element js-scroll slide-right" style="border-radius:50px; background-color: #f7e1e1; display: flex;align-items: center; justify-content: center;">
     <img src="images/upsDesc.jpg" style="margin-left: auto;margin-right: auto;width: 45%; height: auto;">
   </div>
   <div class="scroll-caption" style="text-align: justify; text-justify: inter-word;">

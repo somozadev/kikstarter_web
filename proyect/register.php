@@ -4,7 +4,7 @@
     <div class="container-centerer">
         <div class="container-form">
             <form method="post" action="php/register.inc.php" class="form" id="register">
-                <h1 class="form__title"> Register </h1>
+                <h1 class="form__title"> Regístrate </h1>
                 <div class="form__message form__message--error"></div>
                 <div class="form__input-group">
                     <input type="text" id="registerUsername" class="form__input" required autocomplete="username" name="register_username" autofocus placeholder="Username">

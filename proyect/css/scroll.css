@@ -9,7 +9,7 @@
 }
 
 .scroll-container {
-  height: 50vh;
+  height: 100%;
   min-height: 450px;
   padding: 2rem 1rem;
   display: flex;
@@ -37,6 +37,7 @@
 .scroll-element,
 .scroll-caption {
   width: 50%;
+  height: 100%;
 }
 
 .scroll-element {
@@ -74,7 +75,9 @@ footer a {
   }
 
   .scroll-element {
-    height: 100%;
+    height: 100%;  display: flex;
+    align-items: center;
+    justify-content: center;
   }
 
   .scroll-element,
@@ -97,6 +100,7 @@ footer a {
 
 .scrolled.slide-left {
   animation: slide-in-left 2s ease-in-out both;
+
 }
 
 .scrolled.slide-right {

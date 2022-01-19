@@ -2,6 +2,7 @@
     width: 100%;
     height: 100%;
     margin: auto;
+    padding-bottom: 6vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -10,7 +11,7 @@
 
 .goal-text {
     text-align: center;
-    font-size: 7vw;
+    font-size: 6vw;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background: white;/* linear-gradient(to right, #ffc861 0%, #8ae226 100%); */
     -webkit-background-clip: text;

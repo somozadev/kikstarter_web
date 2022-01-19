@@ -49,12 +49,42 @@
         <h6 class="text-uppercase font-weight-bold mb-4">Newsletter</h6>
         <p class="text-muted mb-4">Si desea estar informado con las últimas noticias, proyectos y prototipos, suscríbase <b>gratuitamente</b> a nuestra Newsletter:</p>
         <div class="p-1 rounded border">
-          <div class="input-group">
-            <input type="email" placeholder="Enter your email address" aria-describedby="button-addon1" class="form-control border-0 shadow-0">
+          <div class="input-group" style="align-items: center; display: flex; flex-direction: row; justify-content: space-around; ">
+            <?php
 
-            <div class="input-group-append">
-              <button id="button-addon1" type="submit" class="btn btn-link"><i class="fa fa-paper-plane"></i></button>
-            </div>
+            if (array_key_exists('mail_button', $_POST)) {
+              require 'PHPMailer.php';
+              require 'SMTP.php';
+              $mail = new PHPMailer(true);
+              try {
+              $mail_to = $_POST["mail_to"];
+              $mail->CharSet = 'UTF-8';
+              $body = 'Al suscribirte gratuitamente a nuestra newsletter tendrás acceso a toda la información de última hora sobre los proyectos que vayamos incorporando.';
+              $mail->IsSMTP();
+              $mail->Host       = 'smtp.gmail.com';
+              $mail->SMTPSecure = 'tls';
+              $mail->Port       = 587;
+              $mail->SMTPDebug  = 0;
+              $mail->SMTPAuth   = true;
+              $mail->Username   = 'somcas99@gmail.com';
+              $mail->Password   = 'uem12345';
+              $mail->SetFrom('somcas99@gmail.com', "Somcas");
+              $mail->AddReplyTo('no-reply@mycomp.com', 'no-reply');
+              $mail->Subject    = 'Confirmación de suscripción a nuestra newsletter!!';
+              $mail->MsgHTML($body);
+              $mail->AddAddress($mail_to, 'Zark');
+              $mail->send();
+            }catch (Exception $e) {
+          }
+          }
+
+            ?>
+            <form method="POST" style="align-items: center;display: flex;flex-direction: row;justify-content: center; ">
+              <input type="email" name='mail_to' placeholder="Enter your email address" aria-describedby="button-addon1" id='mail' class="form-control border-0 shadow-0">
+              <div class="input-group-append">
+                <button id="button-addon1" name='mail_button' type="submit" class="btn btn-link"><i class="fa fa-paper-plane"></i></button>
+              </div>
+            </form>
           </div>
         </div>
       </div>

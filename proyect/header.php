@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Somcas - Página principal</title>
+    <title>Somcas</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="images/logo.png">
 
@@ -269,12 +269,12 @@
                     <p style='margin: auto; text-align: center;'> Hola <mark style='color:burlywood; background: none;'>" . $_SESSION["username"] . "</mark>! </p>
                 </div>";
                     echo "<div class='text-end'>
-                    <a href='php/logout.inc.php'><button type='button' class='btn btn-warning'>Logout</button></a>
+                    <a href='php/logout.inc.php'><button type='button' class='btn btn-warning'>Cerrar sesión</button></a>
                     </div>";
                 } else {
                     echo "<div class='text-end'>
-                    <a href='login.php'> <button type='button' class='btn btn-outline-light me-2'>Login</button></a>
-                    <a href='register.php'> <button type='button' class='btn btn-warning'>Sign-up</button> </a>
+                    <a href='login.php'> <button type='button' class='btn btn-outline-light me-2'>Iniciar sesión</button></a>
+                    <a href='register.php'> <button type='button' class='btn btn-warning'>Regístrate</button> </a>
                     </div>";
                 }
                 ?>

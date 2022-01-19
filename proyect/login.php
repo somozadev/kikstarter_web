@@ -4,7 +4,7 @@
     <div class="container-centerer">
         <div class="container-form">
             <form method="post" action="php/login.inc.php" class="form" id="login">
-                <h1 class="form__title"> Login </h1>
+                <h1 class="form__title"> Iniciar sesión </h1>
                 <!-- <div class="form__message form__message--error"></div> -->
                 <div class="form__input-group">
                     <input type="text" class="form__input" name="login_username" autofocus autocomplete="current-password" required placeholder="Username/Email">
@@ -28,10 +28,10 @@
                 ?>
 
 
-
+<!-- 
                 <p class="form__text">
                     <a href="#" class="form__link"> Recuperar contraseña</a>
-                </p>
+                </p> -->
                 <p class="form__text">
                     <a href="register.php" id="linkRegister" class="form__link"> ¿No tienes una cuenta? Regístrate aquí</a>
                 </p>

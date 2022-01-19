@@ -1,6 +1,21 @@
 <?php include_once('header.php') ?>
 
 <div class="owl-carousel owl-theme">
+  <div class="owl-slide d-flex align-items-center cover" style="background-image: url(images/RollsRoyce2.jpg);">
+    <div class="container">
+      <div class="row justify-content-center justify-content-md-start">
+        <div class="col-10 col-md-6 static">
+          <div class="owl-slide-text">
+            <h2 class="owl-slide-animated owl-slide-title">Rolls-Royce Vision 100 - Especificaciones</h2>
+            <div class="owl-slide-animated owl-slide-subtitle mb-3">
+              Para el modelo, de 5'9 metros de largo, Rolls-Royce ha elegido un sistema de propulsión cero emisiones, completamente eléctrico, mostrando así el camino que podría seguir la firma inglesa, ya que "no sólo de V12 vive el hombre". Por su parte, las estrechas llantas están fabricadas a partir de 65 piezas individuales de aluminio y el habitáculo está envuelto en cristal.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--/owl-slide-->
   <div class="owl-slide d-flex align-items-center cover" style="background-image: url(images/RollsRoycePrincipal.jpg);">
     <div class="container">
       <div class="row justify-content-center justify-content-md-start">
@@ -17,21 +32,6 @@
   </div>
   <!--/owl-slide-->
 
-  <div class="owl-slide d-flex align-items-center cover" style="background-image: url(images/RollsRoyce2.jpg);">
-    <div class="container">
-      <div class="row justify-content-center justify-content-md-start">
-        <div class="col-10 col-md-6 static">
-          <div class="owl-slide-text">
-            <h2 class="owl-slide-animated owl-slide-title">Rolls-Royce Vision 100 - Especificaciones</h2>
-            <div class="owl-slide-animated owl-slide-subtitle mb-3">
-              Para el modelo, de 5'9 metros de largo, Rolls-Royce ha elegido un sistema de propulsión cero emisiones, completamente eléctrico, mostrando así el camino que podría seguir la firma inglesa, ya que "no sólo de V12 vive el hombre". Por su parte, las estrechas llantas están fabricadas a partir de 65 piezas individuales de aluminio y el habitáculo está envuelto en cristal.
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!--/owl-slide-->
 
   <div class="owl-slide d-flex align-items-center cover" style="background-image: url(images/RollsRoyce3.jpg);">
     <div class="container">

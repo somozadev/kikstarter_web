@@ -1,6 +1,22 @@
 <?php include_once('header.php') ?>
 
 <div class="owl-carousel owl-theme">
+
+  <div class="owl-slide d-flex align-items-center cover" style="background-image: url(images/motoNewron3.jpg);">
+    <div class="container">
+      <div class="row justify-content-center justify-content-md-start">
+        <div class="col-10 col-md-6 static">
+          <div class="owl-slide-text">
+            <h2 class="owl-slide-animated owl-slide-title">Newron Motors EV-1 - Potencia eléctrica</h2>
+            <div class="owl-slide-animated owl-slide-subtitle mb-3">
+              La batería, que en tan solo 40 minutos puede cargarse al 80%, permite acelerar de 0 a 100 km/h en tres segundos. El precio final de este increíble diseño está previsto que sea de unos 60.000 euros.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--/owl-slide-->
   <div class="owl-slide d-flex align-items-center cover" style="background-image: url(images/motoNewronPrincipal.jpg);">
     <div class="container">
       <div class="row justify-content-center justify-content-md-start">
@@ -33,21 +49,6 @@
   </div>
   <!--/owl-slide-->
 
-  <div class="owl-slide d-flex align-items-center cover" style="background-image: url(images/motoNewron3.jpg);">
-    <div class="container">
-      <div class="row justify-content-center justify-content-md-start">
-        <div class="col-10 col-md-6 static">
-          <div class="owl-slide-text">
-            <h2 class="owl-slide-animated owl-slide-title">Newron Motors EV-1 - Potencia eléctrica</h2>
-            <div class="owl-slide-animated owl-slide-subtitle mb-3">
-              La batería, que en tan solo 40 minutos puede cargarse al 80%, permite acelerar de 0 a 100 km/h en tres segundos. El precio final de este increíble diseño está previsto que sea de unos 60.000 euros.
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!--/owl-slide-->
 </div>
 
 

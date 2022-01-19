@@ -1,4 +1,6 @@
 <link rel="stylesheet" href="css/progress_bar.css">
+
+
 <?php
 
 if (isset($_SESSION["donated_proyect_to"]))
@@ -14,7 +16,7 @@ $ratio = number_format((float)(($current / $goal) * 100), 1, '.', '');
 
 echo
 '<div class="progress-container">
-<div class="goal-text"> ' . $goal . '€</div>
+<div class="goal-text"> '. $goal . '€</div>
 
     <div class="progress">
         <div class="progress-done" style="height: 100%; display: flex; align-items: center; justify-content: center;
